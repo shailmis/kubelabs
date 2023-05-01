@@ -1,4 +1,12 @@
-# An Ultimate Kubernetes Hands-on Labs
+# Get Started with Kubernetes | Ultimate Hands-on Labs and Tutorials
+
+![stars](https://img.shields.io/github/stars/collabnix/kubelabs)
+![forks](https://img.shields.io/github/forks/collabnix/kubelabs)
+![issues](https://img.shields.io/github/issues/collabnix/kubelabs)
+![GitHub contributors](https://img.shields.io/github/contributors/collabnix/kubelabs)
+![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=collabnix.kubelabs)
+![Twitter](https://img.shields.io/twitter/follow/collabnix?style=social)
+
 
 ## Pre-requisite:
 
@@ -10,8 +18,8 @@
 
 ### PWK:
 
-  - [Preparing 5-Node Kubernetes Cluster on Play with Kubernetes Platform](./kube101.md) 
-  - [Setting up WeaveScope For Visualization on PWK](./weave-pwk.md) 
+  - [Preparing 5-Node Kubernetes Cluster](./kube101.md) 
+  - [Setting up WeaveScope For Visualization on Kubernetes](./weave-pwk.md) 
   - [Running Portainer on 5 Node Kubernetes Cluster](https://github.com/collabnix/kubelabs/tree/master/portainer#running-portainer-on-5-node-kubernetes-cluster)
   
   
@@ -35,6 +43,10 @@
 
 - [Kubectl for Docker Beginners](./kubectl-for-docker.md) 
 - [Accessing Kubernetes API](./api.md) 
+
+## Kubernetes CRUD 
+
+- [Using Python](python/README.md)
 
 
 ## Pods101
@@ -137,23 +149,12 @@
 
  
   - [What is Kubernetes Service Catalog?](./ServiceCatalog101/what-is-service-catalog.md)
-  - The Kubernetes Service 
-     - Catalog Resources
-     - Catalog components
   - [Creating a sample Service Catalog](./ServiceCatalog101/Create-Service-Catalog.md)
   - [Installing Service Catalog Helm Chart](./ServiceCatalog101/Install-Service-Catalog-Helm.md)
-   - Installing minibroker
- - Viewing the classes and plans for the Service Broker
- - Using the Service Broker services
-  - Using the Service Broker services
-  - Creating the ServiceBinding
-  - Using the Service Catalog Service
-- Cleaning up  
-  
+
 
 ## Cluster Networking101
 
- -  Introductory Slides (Pending)
  - [What Is Cluster Networking In Kubernetes Sense?](./ClusterNetworking101/README.md/#Cluster-Networking)
  - [Kubernetes Networking Rules](./ClusterNetworking101/README.md/#Kubernetes-Networking-Rules)
  - [Types of Networks](./ClusterNetworking101/README.md/#Types-of-Networks)
@@ -170,7 +171,7 @@
 
 ## Network Policies101
 
- - Introductory Slides (Pending)
+
  - [What is a Kubernetes Network Policy?](./Network_Policies101/README.md)
  - [Creating Your First NetworkPolicy Definition](./Network_Policies101/First_Network_Policy.md)
  - [How can we fine-tune Network Policy using selectors?](./Network_Policies101/how_can_we_fine-tune_network_policy_using_selectors.md)
@@ -183,7 +184,7 @@
 
 ## Monitoring101
 
- - Introductory Slides (Pending)
+
  - [Monitoring in Kubernetes](./Monitoring101/README.md/#Monitoring-in-Kubernetes)
  - [Core Monitoring Pipeline](./Monitoring101/README.md/#Core-Monitoring-Pipeline)
  - [Services Monitoring Pipeline](./Monitoring101/README.md/#Service-Monitoring-Pipeline)
@@ -193,17 +194,92 @@
    - [Heapster is Going Away](./Monitoring101/README.md/#Heapster-is-going-away)
    - [Metrics Server Will Get More Cool Features](./Monitoring101/README.md/#Metrics-Server-Will-Get-More-Cool-Features)
 
+## Logging101
+
+ - [Logging introduction](./Logging101/logging-intro.md)
+ - [Elasticsearch](./Logging101/what-is-elasticsearch.md)
+ - [Fluentd](./Logging101/fluentd.md)
+ - [Fluent Bit](./Logging101/fluentdbit.md)
+
+## Helm101
+
+- [What is Helm?](./Helm101/what-is-helm.md)
+- [Installing a Helm Chart](./Helm101/installing-a-chart.md)
+- [Helm Charts](./Helm101/helm-charts.md)
+- [Helm Chart Hooks](./Helm101/chart-hooks.md)
+- [Helm Chart Testing](./Helm101/test-charts.md)
+- [Helm Chart Repository](./Helm101/chart-repos.md)
+
+## AKS101
+- [What is AKS?](./AKS101/what-is-aks.md)
+- [AKS Networking](./AKS101/aks-networking.md)
+- [AKS IAM](./AKS101/aks-iam.md)
+- [AKS Storage](./AKS101/aks-storage.md)
+- [AKS Service Mesh](./AKS101/aks-service-mesh.md)
+- [AKS KEDA](./AKS101/aks-keda.md)
+
+## Security101
+- [What is DevSecOps?](./Security101/devsecops.md)
+- [Securing your cluster](./Security101/kubernetes-security.md)
+
+## GitOps101
+- [What is GitOps](./GitOps101/what-is-gitops.md)
+- [ArgoCD](./GitOps101/argocd.md)
+
+## Managed Kubernetes Service
+- [Managed Kubernetes Service Intro](./ManagedKubernetes/readme.md)
+
+## EKS101
+- [What is EKS](./EKS101/what-is-eks.md)
+
+## LKE101
+- [What is LKE](./LKE101/what-is-lke.md)
+
+## GKE101
+- [What is GKE](./GKE101/what-is-gke.md)
+- [Google Cloud Run](./GKE101/cloud-run.md)
+- [GKE Service Mesh](./GKE101/gke-service-mesh.md)
+
+## Loft101
+- [What is Loft](./Loft101/what-is-loft.md)
+- [Loft Lab](./Loft101/loft-lab.md)
+
+## Shipa101
+- [What is Shipa](./Shipa101/what-is-shipa.md)
+- [Shipa Lab](./Shipa101/shipa-lab.md)
+
+## DevSpace101
+- [What is DevSpace](./DevSpace101/what-is-devspace.md)
+- [DevSpace Lab](./DevSpace101/devspace-lab.md)
+
+## Kubernetes with GitLab 101
+- [What is GitLab](./GitLab101/what-is-gitlab.md)
+- [Kubernetes with GitLab](./GitLab101/kubernetes-with-gitlab.md)
+- [GitLab runner on Kubernetes](./GitLab101/runner-on-kubernetes.md)
+
+## Kubernetes with Jenkins
+- [Jenkins on Kubernetes](./Jenkins101/jenkins-on-kubernetes.md)
+- [Using Jenkins on Kubernetes](./Jenkins101/jenkins-ci.md)
+
+## Strimzi (Kafka on Kubernetes)
+ - [What is Kafka](./Strimzi101/kafka.md)
+ - [Running Kafka on Kubernetes](./Strimzi101/kafka-on-kubernetes.md)
+
+## Java client for Kubernetes
+ - [Introduction](./JavaClient101/intro.md)
+
+## Kubernetes Cheat Sheet
+- [Kubernetes Cheat Sheet](./Kubernetes%20Cheat%20Sheet/Kubernetes%20Cheat%20Sheet.md)
+
 # Contributors
 
 - [Ajeet Singh Raina](https://twitter.com/ajeetsraina)
 - [Sangam Biradar](https://twitter.com/BiradarSangam)
-- Rachit Mehrotra
+- [Mewantha Bandara](http://linkedin.com/in/mewantha-bandara)
+- [Rachit Mehrotra](https://www.linkedin.com/in/rachit-mehrotra-08a92819/?originalSubdomain=in)
 - [Saiyam Pathak](https://twitter.com/SaiyamPathak)
 - [Divyajeet Singh](https://www.linkedin.com/in/divyajeet-singh)
 - [Apurva Bhandari](https://www.linkedin.com/in/apurvabhandari-linux)
-
-
-
 
 
 
